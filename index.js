@@ -1,9 +1,9 @@
 
-const getFullName=(fname,lanme)=>{
-    return `${fname} ${lanme}`
+const getFullName=(fname,lanme,age)=>{
+    return `${fname} ${lanme} ${age}`;
 }
 
-const actualFullName= getFullName('Mohd', 'Ibrahim')
+const actualFullName= getFullName('Mohd', 'Ibrahim',22)
 
 const expectedFUllName=getFullName('Mohd','Affan')
 
