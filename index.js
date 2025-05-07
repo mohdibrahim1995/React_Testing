@@ -4,7 +4,7 @@ const getFullName=(fname,lanme)=>{
 
 const actualFullName= getFullName('Mohd', 'Ibrahim')
 
-const expectedFUllName=getFullName('Mohd','Affan')
+const expectedFUllName=getFullName('Mohd','Affans')
 
 if(actualFullName!=expectedFUllName){
     throw Error(`${actualFullName} is not Equal to the ${expectedFUllName}`)

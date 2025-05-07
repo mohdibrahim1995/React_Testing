@@ -1,0 +1,64 @@
+/* Reset some default styling */
+body, h2, a, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+/* Navbar container styling */
+.navbar {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Styling for navbar links */
+.navbar a {
+    color: purple;  /* Text color for links */
+    margin-right: 20px;  /* Spacing between links */
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for navigation links */
+.navbar a:hover {
+    color: darkmagenta;  /* Darker shade on hover */
+}
+
+/* Content area styling */
+.content {
+    padding: 20px;
+}
+
+/* Button styling */
+.home-button {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+.home-button:hover {
+    background-color: #e0e0e0;
+}
+/* Basic Button Styling */
+button {
+    background-color: #f0f0f0;  /* Light grey background */
+    color: #333;  /* Dark grey text color */
+    border: 1px solid #ccc;  /* Light grey border */
+    padding: 10px 20px;  /* Padding for size */
+    font-size: 16px;  /* Font size */
+    border-radius: 4px;  /* Rounded corners */
+    cursor: pointer;  /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, color 0.3s ease;  /* Smooth transition for hover effects */
+}
+
+/* Hover Effect for Button */
+button:hover {
+    background-color: #e0e0e0;  /* Slightly darker background on hover */
+    color: #000;  /* Darker text color on hover */
+}
