@@ -8,4 +8,5 @@ test("Testing Sum of adding 2 Values",
 test("Doing Subsrack using a - b",
     ()=>{
     expect(sub(10,20)).toBe(-10)
-},4000)
+},500)
+
